@@ -9,7 +9,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - run: echo "Bye World"
- my-third-job:
+  my-third-job:
     runs-on: macOS-latest
     steps:
       - run: echo "Bye World"
