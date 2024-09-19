@@ -1,5 +1,5 @@
 name: 02-01-VM verify
-on: workflow-dispatch
+on: workflow_dispatch
 jobs: 
   my-first-job:
     runs-on: ubuntu-latest
