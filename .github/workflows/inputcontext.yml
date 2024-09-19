@@ -7,6 +7,8 @@ on:
       debug:
         type: boolean
         default: false
+      username:
+        type: string
 
 jobs:
   build:
@@ -14,4 +16,4 @@ jobs:
     steps:
       - name: Use Workflow Input
         run: |
-          echo "DEBUG: $inputs.debug"
+          echo "DEBUG: ${{ inputs.debug }}"
