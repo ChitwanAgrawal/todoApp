@@ -5,4 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World"
+  my-second-job:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Hello World"
+  my-third-job:
+    runs-on: macos-latest
+    steps:
+      - run: echo "Hello World"
   
