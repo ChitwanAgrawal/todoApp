@@ -17,3 +17,4 @@ jobs:
       - name: Use Workflow Input
         run: |
           echo "DEBUG: ${{ inputs.debug }}"
+          echo "Username: ${{ inputs.username }}"
